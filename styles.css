@@ -1,0 +1,64 @@
+/* Resetting default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px; /* To create space between header and content */
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Additional styling for team member images */
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 columns */
+    gap: 20px; /* Adds some space between the columns */
+}
+
+.team-member {
+    text-align: center; /* Centers the content within each team member div */
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* Maintains the aspect ratio */
+    border-radius: 50%; /* Optional: Makes the images circular */
+}
